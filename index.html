@@ -9,23 +9,41 @@
     <meta property="og:title" content="T2 || Takuya Takahashi" />
     <meta property="og:description" content="I'm developer / photographer" />
     <meta property="og:type" content="website" />
-    <!-- <meta property="og:url" content="ページの URL" />
-    <meta property="og:image" content="サムネイル画像の URL" />
-    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:url" content="https://takuya-13068.github.io/portfolio/" />
+    <meta property="og:image" content="./assets/portfolioICON.png" />
+    <!--<meta property="og:site_name" content="サイト名" />
     <meta property="og:locale" content="ja_JP"  /> -->
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" href="./assets/portfolioICON_180.png">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
     <script src="./main.js"></script>
     <link rel="stylesheet" href="./stylesheet.css">
 </head>
-<body>
-    <div id="canvas-wrapper">  
-        <canvas id="myCanvas" width="960" height="640"></canvas>
+<body class="index">
+    <div id="loading">
+        <p>Loading...</p>
     </div>
-        
-    </div>
+    <header id="GlobalHeader">
+        <div class="inner">
+            <h1>TAKUYA TAKAHASHI</h1>
+            <nav id="GlobalNav">
+                <ul>
+                    <li class="home"><a href="/">Home</a></li>
+                    <li class="about"><a href="/about/">About</a></li>
+                    <li class="work"><a href="/works/">Works</a></li>
+                    <li class="photo"><a href="/photo/">Photo</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="mainEffect">
+            <p class="btnScroll"><a href="#">Scroll</a></p>
+            <p class="bg-image"></p>
+        </section>
+
+    </header>
     
 
     
@@ -33,3 +51,4 @@
         Copyright © 2022 takuya-13068 All Rights Reserved.
     </div>
 </body>
+</html>
