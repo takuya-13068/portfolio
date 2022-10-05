@@ -29,17 +29,20 @@ html, body {
   vertical-align: middle;
   text-decoration: none;
   display: inline-block;
+  
 }
 
-#GlobalHeader > a> h1{
+#GlobalHeader > a > h1{
   color: black;
   font-family: futura;
 }
 
 
 #GlobalHeader h1:hover{
-  background-color: #a2f5bf;
-}
+  border: 2px solid transparent;
+  border-color: white;
+  background-color: black;
+  color: white;}
 
 
 #access {
@@ -50,6 +53,7 @@ html, body {
 
 #access ul{
   padding: 20px;
+  padding-top: 40px;
 }
 
 #access ul li {
@@ -62,13 +66,16 @@ html, body {
   padding: 10px;
   background-color: white;
   color: #333;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: futura;
   font-size: 20px;
   text-decoration: none;
 }
 
 #access ul li a:hover{
-  background-color: #a2f5bf;
+  border: 2px solid transparent;
+  border-color: white;
+  background-color: black;
+  color: white;
 }
 /*    --------------------------------    */
 
@@ -76,5 +83,6 @@ html, body {
 
 
 /*   bottom   */
-#copyright > p {
+.copyright > p{
+  text-align: center;
 }
