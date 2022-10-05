@@ -31,6 +31,11 @@ html, body {
   display: inline-block;
 }
 
+#GlobalHeader > a> h1{
+  color: black;
+  font-family: futura;
+}
+
 
 #GlobalHeader h1:hover{
   background-color: #a2f5bf;
@@ -45,7 +50,6 @@ html, body {
 
 #access ul{
   padding: 20px;
-  
 }
 
 #access ul li {
@@ -69,3 +73,8 @@ html, body {
 /*    --------------------------------    */
 
 /*    top body    */
+
+
+/*   bottom   */
+#copyright > p {
+}

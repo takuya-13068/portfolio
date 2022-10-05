@@ -11,16 +11,23 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://takuya-13068.github.io/portfolio/about" />
     <meta property="og:image" content="./assets/portfolioICON.png" />
+
     <link rel="icon" href="./favicon.ico">
     <link rel="apple-touch-icon" href="./assets/portfolioICON_180.png">
 
-    <script src="./main.js"></script>
+    <!--  font import  -->
+    <link href="http://fonts.cdnfonts.com/css/futura" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    
+    <!--  CSS Design  -->
     <link rel="stylesheet", media="all", href="../stylesheet.css", type="text/css">
     <link rel="stylesheet", media="all", href="./about.css", type="text/css">
+    <script src="./main.js"></script>
+
 </head>
 <body class="index">
     <header id="GlobalHeader">
-        <h1><a href="./">About</a></h1>
+        <a href="./" id="aboutHeader"><h1>About</h1></a>
         <nav id="access">
             <ul>
                 <li class="about"><a href="./">Top</a></li>
@@ -34,32 +41,55 @@
 
     <div id="aboutCnt">
         <div id="introduction">
-            <h1>Takuya Takahashi</h1>
-            
-            <p>Front-End Enginner / photographer</p>
-            <p>EDUCATION Computer Science at Tokyo Institute of Technology</p>
-            <p>Member of traP</p>
-
-
-            
+            <h1>Takuya Takahashi <img src="assets/portfolioICON.png" alt="Portfolio Icon"></h1>
+            <p>Front-End Enginner / Game Creator / Photographer</p>
+            <p>Undergraduate Student in Computer Science at Tokyo Institute of Technology</p>
+            <p>Member of traP(東京工業大学デジタル創作同好会traP)</a></p>
         </div>
 
         <div id="skills">
             <h1>Skills</h1>
-            <p>HTML / CSS / JavaScript / Python / Canvas / AR / Unity / OpenCV / Machine Learning / Creative Coding / P5.js / OpenCV.js / C# / Java / </p>
+            <p>HTML / CSS / JavaScript / Python / Canvas / AR / Unity / OpenCV / Machine Learning / Creative Coding / P5.js / OpenCV.js / C# / Java</p>
         </div>
+        <div id="Language">
+            <h1>Language</h1>
+            <p>Japanese: Native</p>
+            <p>English: Advanced</p>
+        </div>
+
         <div id="contact">
             <h1>Contact</h1>
-            <p>Please contact us via email or DM on SNS.</p>        
+            <p>Please contact me via email or DM on SNS.</p>        
         </div>
+
+        
         <div id="links">
-            
+            <div class="list">
+                <a href="" id="email">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <p>Email: infoOOOO@gmail.com</p>
+                </a>
+                <a href="https://twitter.com/TT_tech_college" id="twitter">
+                    <i class="fab fa-twitter fa-2x"></i>
+                    <p>Twitter: @TT_tech_college</p>
+                </a>
+            </div>
+            <div class="list">
+                <a href="" id="instagram">
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <p>Instagram: OOO</p>
+                </a>
+                <a href="https://github.com/takuya-13068" id="github">
+                    <i class="fab fa-github fa-2x"></i>
+                    <p>GitHub: takuya-13068</p>
+                </a>
+            </div>
         </div>
 
     </div>
     
     <div class="copyright">
-        ©2022 Takuya Takahashi
+        <p>©2022 Takuya Takahashi</p>
     </div>
 </body>
 </html>

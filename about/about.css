@@ -1,6 +1,8 @@
 /*    Body    */
 #aboutCnt{
-    margin: 30px;
+    margin: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
     padding-top: 100px;
     color: #fff;
     background-color: #000;
@@ -9,5 +11,80 @@
     letter-spacing: 0.1em;
 }
 
-.introduction {
+#aboutCnt > div{
+    padding-top: 10px;
+}
+
+#introduction > h1{
+    font-size: 58px;
+}
+
+
+.skills{
+}
+
+.links{
+
+}
+.list {
+    text-align: center;
+}
+.list > a { /*  それぞれの媒体の枠  */
+    list-style-type: none;
+    border: 2px solid white;
+    width: 32vw;
+    height: 10vh;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.list > a > i{
+    margin: 10px;
+    margin-left: 50px;
+    display: block;
+}
+.list > a > p{
+    font-family: futura;
+    width: 32vw;
+    height: auto;
+    margin: 0px;
+    justify-content: center;
+    display: block;
+}
+
+#email{
+    color: white;
+    border-color: white;
+} #email:hover{
+    background-color: white;
+    color: black;
+}
+
+#twitter{
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+} 
+#twitter:hover{
+    background-color:#1DA1F2;
+    color: black;
+    
+}
+
+#instagram{
+    color: #E1306C;
+    border-color: #E1306C;
+} #instagram:hover{
+    background-color:#E1306C;
+    color: black;
+}
+
+#github{
+    color: white;
+    border-color: white;
+} #github:hover{
+    background-color: white;
+    color: black;
 }
