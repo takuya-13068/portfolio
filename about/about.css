@@ -11,3 +11,39 @@
 
 .introduction {
 }
+.list {
+    text-align: center;
+}
+.list > div { /*  それぞれの媒体の枠  */
+    border: 2px solid white;
+    width: 35%;
+    height: 10vh;
+    display: inline-flex;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.list > div > i{
+    margin: 10px;
+    margin-left: 50px;
+}
+.list > div > p{
+    font-family: 'Times New Roman', Times, serif;
+    width: 25vw;
+    margin: 0px;
+    justify-content: center;
+}
+
+#email{
+}
+#twitter{
+}
+
+#instagram{
+}
+
+#github{
+
+}
+
