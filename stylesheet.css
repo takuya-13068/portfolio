@@ -80,7 +80,18 @@ html, body {
 /*    --------------------------------    */
 
 /*    top body    */
+#content{
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 12%;
+  padding-top: 100px;
 
+  color: #fff;
+  background-color: #000;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
 
 /*   bottom   */
 .copyright > p{
