@@ -12,10 +12,10 @@
     background-image: linear-gradient(
         0deg,
         #202020 20%,
-        #5C7183 20%, black 32%,
-        #647B8F 32%, #647B8F 50%,
-        #44617b 50%, black 65%,
-        #5E7486 65%, #393f4c 90%,
+        #5C7183 20%, black 33%,
+        #647B8F 30%, #647B8F 47%,
+        #44617b 50%, black 60%,
+        #5E7486 63%, #393f4c 90%,
         black 90%, black 100%
       );
       background-size: 100% auto;
