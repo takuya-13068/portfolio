@@ -137,14 +137,12 @@ html, body, a{
   transition: transform 0.03s;  
   transition-timing-function: ease-out;
   z-index: 999;
-
-  &.hov_{
-    top: -32px;     
-    left: -32px;    
-    width: 64px;
-    height: 64px;
-    transition: .5s;
-    background: rgba(255, 0, 0, 0.4);
-  }
 }
 /*   -----------------------------------  */
+
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+
+}

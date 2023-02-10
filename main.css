@@ -1,0 +1,381 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: blue;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+}
+
+body > div {
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+body > div > ui, body > div > p{
+    padding-left: 2rem;
+}
+
+
+#global-header{
+    background: #baa186ac;
+}
+#global-header > *{
+    display: inline-block;
+}
+#global-header > h1 {
+    margin: 15px 0;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+#icon{
+    height: 70px;
+    vertical-align: top;
+}
+
+.head{
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+
+#Profile{
+    padding: 3rem 10% 2rem 10%;
+}
+#Profile > div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#p-jp{
+    font-size: 16px;
+}
+#self{
+    width: 20%;
+    min-width: 150px;
+    max-width: 250px;
+    margin-right: 3rem;
+} #self > img{
+    width: 100%;
+}
+#Profile > .element{
+    margin: 0 0 0 0;
+    max-width: 75%;
+}
+
+#p-github > *, #p-twitter > *{
+    display: inline-block;
+}
+
+
+#p-contact > a > i{
+    vertical-align: middle;
+}
+
+#p-github, #p-twitter{
+    margin-right: 1rem;
+    height:auto;
+    padding: 1rem 0;
+}
+
+#email{
+    color: white;
+    border-color: white;} 
+#email:hover{
+    background-color: white;
+    color: black;}
+#p-twitter{
+    color: #1DA1F2;
+    border-color: #1DA1F2;} 
+#p-twitter:hover{
+    background-color:#1DA1F2;
+    color: white;  }
+#p-instagram{
+    color: #E1306C;
+    border-color: #E1306C;} 
+#p-instagram:hover{
+    background-color:#E1306C;
+    color: black;}
+
+#p-github{
+    color: black;
+    border-color: black;} 
+#p-github:hover{
+    background-color: black;
+    color: white;}
+
+hr{
+    width: 80%;
+}
+
+#Project > .head{
+    padding-bottom: 1.4rem;
+}
+
+#Project > div {
+    padding: 6px; margin-bottom: 10px; border: 0.3rem solid #5b5a5a;
+    width: 460px;
+    height: 670px;
+    display: inline-block;
+}
+
+.p-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 10%;
+    margin: 0;
+    padding: 1.5rem 0;
+}
+
+.tool{
+    height: 8%;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.tool > span{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tool > .python{
+    color: #4B8BBE;
+    border-color: #4B8BBE;
+}
+.tool > .html{
+    color: #de4528;
+    border-color: #de4528;
+}
+.tool > .arduino{
+    color: #009688;
+    border-color: #009688;
+}
+.tool > .js{
+    color: #e0cc4c;
+    border-color: #e0cc4c;
+}
+.tool > .Cs{
+    color: #8f488a;
+    border-color: #8f488a;
+}
+.tool > .other{
+    color: #cd8226;
+    border-color: #cd8226;
+}
+
+.p-description{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    height: 13%;
+}
+
+.p-photo{
+    height: 37%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#easymd-photo{height: 100%;}
+#quickbuzz-photo{height: 100%;}
+#mypic-photo{height: 100%;}
+#squares-photo{height: 100%;}
+#yomeru-photo{height: 100%;}
+#artou-photo{height: 100%;}
+#ar-photo{height: 100%;}
+
+
+.link{
+    text-align: center;
+    align-items: center;
+    height:14%;
+    padding: 0 auto;
+}
+.link > *{
+    padding: 0 auto;
+}
+.p-link{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+    margin-bottom: 0.6rem;
+} 
+a.p-link {
+    overflow: hidden;
+  
+    padding: 1.2rem 2rem;
+  
+    color: #fff;
+    border-radius: 0;
+    background: #000;
+}
+a.p-link span {
+    position: relative;
+  }
+a.p-link:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 150%;
+    height: 500%;
+  
+    content: "";
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+a.github::before{
+    background: rgb(191, 11, 191);
+    transform: translateX(-120%) translateY(-16%) rotate(45deg);
+}
+a.youtube::before{
+    background: #E62177;
+    transform: translateX(-115%) translateY(-16%) rotate(45deg);
+}
+a.webpage::before{
+    background: rgba(0, 162, 255, 0.798);
+    transform: translateX(-112%) translateY(-16%) rotate(45deg);
+}
+a.p-link:hover:before {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-20%) translateY(-25%) rotate(45deg);
+}
+
+.element{
+    font-size: large;
+}
+
+.jp{
+    margin-top: 1.2rem;
+}
+
+.copyright{
+    background-color: #111111;
+    padding: 0.3rem;
+}
+.copyright > p{
+    text-align: center;
+    font-family: futura;
+    color: white;
+    font-size: large;
+}
+
+/* スマホだけに適用するCSS */
+@media screen and ( max-width:479px )
+{
+    .element{
+        font-size: 12px;
+    }
+    #icon{
+        height: 50px;
+    }
+
+    #global-header > h1 {
+        margin: 15px 0;
+        font-size: large;
+    }
+    #self {
+        margin: 0;
+        padding: 0;
+    } #self > img{
+        border-radius: 10px;
+    }
+    #Profile > .element{
+        margin: 0 0 0 0;
+        max-width: 100%;
+    } .element > p{
+        font-size: 12px;
+    }#p-jp{
+        font-size: 12px;
+    }
+    
+    #Project > div {
+        border: 0.2rem solid #5b5a5a;
+        width: 300px;
+        height: 600px;
+    }
+
+    .p-description{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 12px;
+        font-weight: 300;
+        height: 10%;
+    }
+
+    .p-photo{        
+        height: 33%;
+        width: 85%;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        margin: 0 auto;
+    }
+    #easymd-photo{width: 100%; height: auto;}
+    #quickbuzz-photo{width: 100%; height: auto;}
+    #mypic-photo{width: 100%; height: auto;}
+    #squares-photo{width: 100%; height: auto;}
+    #yomeru-photo{width: 100%; height: auto;}
+    #artou-photo{width: 100%; height: auto;}
+    #ar-photo{width: 100%; height: auto;}
+
+    .link{
+        padding: 0 auto;
+        height: 21%;
+    }
+    a.p-link{
+        padding: 1rem 2rem;
+    }
+
+    .head{
+        font-size: x-large;
+    }
+    
+    .copyright > p{
+        font-size:12px;
+    }
+    
+}
