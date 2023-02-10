@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>T2 | Takuya Takahashi</title>
+    <title>Takuya Takahashi | 高橋拓也</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="works, developer, photographer, web, website, programming, Javascript, HTML, CSS, Unity, C++, AR">
@@ -11,50 +11,205 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://takuya-13068.github.io/portfolio/" />
     <meta property="og:image" content="./assets/portfolioICON.png" />
-    <!--<meta property="og:site_name" content="サイト名" />
-    <meta property="og:locale" content="ja_JP"  /> -->
+    <!--  Icon Settings  -->
     <link rel="icon" href="./favicon.ico">
     <link rel="apple-touch-icon" href="./assets/portfolioICON_180.png">
-
     <!--  font import  -->
     <link href="http://fonts.cdnfonts.com/css/futura" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-
     <!--  CSS Design  -->
-    <link rel="stylesheet", media="all", href="./stylesheet.css", type="text/css">
-
+    <link rel="stylesheet", media="all", href="./main.css", type="text/css">
     <!--  JavaScript-->
-    <script src="./canvas.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/molleindustria/p5.play/lib/p5.play.js"></script>
+    
 </head>
 <body class="index">
-    <header id="GlobalHeader">
-        <a href="./index.html"><h1>Takuya Takahashi</h1></a>
-        <nav id="access">
-            <ul>
-                <li class="about"><a href="./index.html">Top</a></li>
-                <li class="about"><a href="./about/index.html">About</a></li>
-                <li class="work"><a href="./works/index.html">Works</a></li>
-                <!-- <li class="photo"><a href="./photo/">Photo</a></li> -->
-            </ul>
-        </nav>
-        <div id="setting"></div>
+    <header id="global-header">
+        <img src="./assets/portfolioICON_trans.png" alt="Portfolio Icon" id="icon">
+        <h1>Takuya Takahashi 高橋拓也</h1>
     </header>
-    
-    <div id="canvas-wrapper">
-        <canvas id="myCanvas" width="960" height="640"></canvas>
-        <h2>I'm developer and photographer</h2>
-        <h2>This page is a portfolio of Takuya Takahashi</h2>
+
+    <div id="Profile">
+        <div id="self"><img src="./assets/self.jpg"></div>
+        <div class="element">
+            <p>I'm currently a 3 year Bachelor at Tokyo Institute of Technology, Department of Computer Science. My interests are in Human-Computer-Interaction (HCI), particularly with respect to novel interaction systems and devices that technologically assist people with disabilities. Outside of research, I am a Photographer and Game Developer.</p>
+            <p id="p-jp">Human-Computer-Interaction (HCI)に関心があり、特に新規インタラクションシステムの提案と生活に不自由を持つ人々を技術的に支援するデバイスに関して取り組みたいです。他にゲーム開発や写真撮影の活動をしています。</p>
+            <!--<p><b>My CV is available form here.</b></p>-->
+            <p>Email: takahashi.t.cn[at]m.titech.ac.jp</p>
+            <div id="p-contact">
+                <a href="https://github.com/takuya-13068" id="p-github">
+                    <i class="fab fa-github fa-2x"></i>
+                    <p>GitHub</p>
+                </a>
+                <a href="https://twitter.com/TT_tech_college" id="p-twitter">
+                    <i class="fab fa-twitter fa-2x"></i>
+                    <p>Twitter</p>
+                </a>
+            </div>
+        </div>
     </div>
-    
-    <div class="copyright">
-        <p>All Rights Reserved by Takuya Takahashi 2022-</p>
-    </div>
-    <div id="tracker"></div>
+
+    <hr>
+
+    <div id="Project">
+        <h2 class="head">Projects</h2>
+
+        <div id="easymd" class="p-main">
+            <p class="p-title">EasyM&D</p>
+            <div class="tool">
+                <span class="python">Python</span>
+                <span class="other">MagicDAQ</span>
+            </div>
+            <p class="p-description">I worked on the development of Open-source software which makes it easy to measure and draw voltages by MAGICDAQ as an exchange student at KAIST.</p>
+            <p class="p-description jp">KAISTの研究留学で電圧の測定、描画を容易に実行ができるシステムとUser Interfaceの開発に取り組みました。</p>
+            <div class="p-photo"><img src="./assets/MagicDAQ.jpg" alt="EasyM&D Thumbnail" id="easymd-photo"></div>
+            <div class="link">
+                <a href="https://github.com/takuya-13068/Easy-MD" class="p-link github"><span>GitHub</span></a>
+                <a href="https://www.youtube.com/watch?v=-3C6D1j4X4Y" class="p-link youtube"><span>YouTube</span></a>
+            </div>
+        </div>
+
+        <div id="quickbuzz" class="p-main">
+            <p class="p-title">QuickBuzz</p>
+            <div class="tool">
+                <span class="arduino">Arduino</span>
+            </div>
+            <p class="p-description">Prototype that enables communication while moving the body, developed in "Prototype UX" class at Tokyo Tech. I completed the implementation part from scratch by myself.</p>
+            <p class="p-description jp">東工大の"Prototype UX"の授業で開発した体を動かしながらコミュニケーションが取れるプロトタイプです。実装の部分を全て一人で完成させました。</p>
+            <div class="p-photo"><img src="./assets/quickbuzz.jpg" alt="quickbuzz photo" id="quickbuzz-photo"></div>
+            <div class="link">
+                <a href="https://github.com/takuya-13068/QuickBuzz" class="p-link github"><span>GitHub</span></a>
+            </div>
+        </div>
+
+        <div id="mypic" class="p-main">
+            <p class="p-title">My Pictures (JP ver)</p>
+            <div class="tool">
+                <span class="html">Canvas(HTML5)</span>
+                <span class="js">Javascript</span>
+            </div>
+            <p class="p-description">2D RPG browser game developed at the traP hackathon. The main development was completed in 10 days. The feature of this game is that you create and train your own character and conquer the dungeon.</p>
+            <p class="p-description jp">traPのハッカソンで作成した2DのRPGゲームです。主な開発を10日で完成させました。キャラクターを自分で作成して育成し、ダンジョンを攻略するのが特徴です。</p>
+            <div class="p-photo"><img src="./assets/mypictures.jpg" alt="mypictures photo" id="mypic-photo"></div>
+            <div class="link">
+                <a href="https://yodai49.github.io/mypic/index.html" class="p-link webpage"><span>WebPage</span></a>
+                <a href="https://www.youtube.com/watch?v=Vd37_-uKh5M" class="p-link youtube"><span>YouTube</span></a>
+                <a href="https://github.com/yodai49/mypic" class="p-link github"><span>GitHub</span></a>
+            </div>
+        </div>
+        
+        <div id="squares" class="p-main">
+            <p class="p-title">Squares</p>
+            <div class="tool">
+                <span class="html">Canvas(HTML5)</span>
+                <span class="js">Javascript</span>
+            </div>
+            <p class="p-description">2D action browser game in which you aim for the goal without getting hit by enemies. There are stages with different difficulty levels. It is quite difficult, so if you are confident, please try it (^^)</p>
+            <p class="p-description jp">敵に当たらないようにゴールを目指す2Dアクションゲームです。難易度別にステージがあります。かなり難しいので自信のある方はどうぞ(^^)</p>
+            <div class="p-photo"><img src="./assets/squares.jpg" alt="squares photo" id="squares-photo"></div>
+            <div class="link">
+                <a href="https://takuya-13068.github.io/Squares/" class="p-link webpage"><span>WebPage</span></a>
+                <a href="https://github.com/takuya-13068/Squares" class="p-link github"><span>GitHub</span></a>
+            </div>
+        </div>
+        
+        <div id="yomeru" class="p-main">
+            <p class="p-title">Yomeru-Kun</p>
+            <div class="tool">
+                <span class="js">OpenCV.js</span>
+            </div>
+            <p class="p-description">At the Diji-con hackathon, I created a software with my friends that detects the frame edges of a comic book using OpenCV and automatically converts it into a web comic layout.</p>
+            <p class="p-description jp">Diji-con ハッカソンで漫画のコマ縁をOpenCVを用いて検出し自動的にウェブ漫画のレイアウトに変換するシステムを作りました。</p>
+            <div class="p-photo"><img src="./assets/yomeru-Kun.png" alt="Yomeru-Kun photo" id="yomeru-photo"></div>
+            <div class="link">
+                <a href="https://takuya-13068.github.io/Yomeru-Kun/" class="p-link webpage"><span>WebPage</span></a>
+                <a href="https://github.com/takuya-13068/Yomeru-Kun" class="p-link github"><span>GitHub</span></a>
+            </div>
+        </div>
+        
+        <div id="artou" class="p-main">
+            <p class="p-title">ARTOU</p>
+            <div class="tool">
+                <span class="js">P5.js</span>
+            </div>
+            <p class="p-description">GUI that generates interactions on the web. I was interested in Creative Coding and tried it.</p>
+            <p class="p-description jp">ウェブ上でインタラクションが発生するGUIです。Creative Codingに興味がありやってみました。</p>
+            <div class="p-photo"><img src="./assets/artou.png" alt="ARTOU photo" id="artou-photo"></div>
+            <div class="link">
+                <a href="https://takuya-13068.github.io/interaction/" class="p-link webpage"><span>WebPage</span></a>
+                <a href="https://github.com/takuya-13068/interaction" class="p-link github"><span>GitHub</span></a>
+            </div>
+        </div>
+
+        <div id="ar" class="p-main">
+            <p class="p-title">AR Shooting Game</p>
+            <div class="tool">
+                <span class="Cs">C#</span>
+                <span class="other">LocationBaseAR</span>
+                <span class="Unity">Unity</span>
+            </div>
+            <p class="p-description">An exploratory AR game I created as an intern at ColiSite. I was in charge of the game throwing part of the development on AR.</p>
+            <p class="p-description jp">ColiSiteのインターンで作成した探索型ARゲームです。開発のAR上でのゲーム投げの部分を担当しました。</p>
+            <div class="p-photo"><img src="./assets/ARShooting.png" alt="AR shooting" id="ar-photo"></div>
+            <div class="link">
+                <a href="https://coilsite.notion.site/CoilSite-af77f7e8c92a4a8b9e51c48a3c665b82" class="p-link webpage"><span>WebPage</span></a>
+                <a href="https://github.com/hosoi-ryota/National-AR-ball-game" class="p-link github"><span>GitHub</span></a>
+            </div>
+        </div>
+
+        
 
 
-    <script src="./main.js"></script>
+    </div>
+    <div id="Grants">
+        <h2 class="head">Grants</h2>
+        <ul>
+            <li class="element"><b>2022.04 - 2024.03</b> Public Trust Hisao Iwai Memorial Tokyo Scholarship Fund (公益信託 岩井久雄記念東京奨学育英基金), ¥100,000/month</li>
+            <li class="element"><b>2022.07</b> 公益財団法人キーエンス財団 「がんばれ！日本の大学生」応援給付金, ¥300,000</li>
+        </ul>
+    </div>
+    <div id="Academic">
+        <h2 class="head">Academic</h2>
+        <ul>
+            <li class="element"><b>2022.12 - 2023.01</b> Research Inturnship at [<a href="https://makinteract.kaist.ac.kr/"> MAKinteract </a>](Prof. Andrea Bianchi), KAIST</li>
+            <li class="element jp">研究留学 (<a href="https://makinteract.kaist.ac.kr/"> MAKinteract </a>),韓国 KAIST (2022.12-2023.1)</li>
+        </ul>
+    </div>  
+    <div id="Industry">
+        <h2 class="head">Industry</h2>
+        <ul>
+            <li class="element">Inturnship
+                <ul>
+                    <li class="element"><b>2022.09</b> ColiSite</li>
+                </ul>
+            </li>
+            <li class="element">Hackathon
+                <ul>
+                    <li class="element"><b>2021.12</b> [<a href="https://trap.jp/"> traP </a>] Departmental Hackathon in Winter</li>
+                    <li class="element"><b>2022.09</b> Diji-con Hackathon</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="Education">
+        <h2 class="head">Education</h2>
+        <ul>
+            <li class="element eng"><b>2020.04 - Present</b> Bachelor, Tokyo Institute of Technology</li>
+            <li class="element jp">学士: 東京工業大学情報理工学院 (2020-現在)</li>
+        </ul>
+          
+    </div>
+    <div id="Language">
+        <h2 class="head">Language</h2>
+        <p class="element">Japanese(native), English(business)</p>
+    </div>
+    <div id="Contact">
+
+    </div>
+    <footer class="copyright">
+        <p>Copyright © TAKUYA TAKAHASHI. All Rights Reserved.</p>
+    </footer>
+
+    <!--<div id="tracker"></div>
+    <script src="./main.js"></script>-->
 </body>
 </html>
