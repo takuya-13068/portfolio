@@ -1,4 +1,4 @@
-#Takuya Takahashi 
+# Takuya Takahashi 
 
 This is the portfolio of Takuya Takahashi
 
