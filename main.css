@@ -307,7 +307,11 @@ a.p-link:hover:before {
 @media screen and ( max-width:479px )
 {
     .element{
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .mainul{
+        margin-top: 0.3rem;
     }
     #icon{
         height: 50px;
