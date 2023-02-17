@@ -287,7 +287,12 @@ a.p-link:hover:before {
 .element{
     font-size: large;
 }
-
+#Industry > .mainul > .element{
+    font-size: 1.7rem;
+}
+#top-indu{
+    margin-bottom: 10px;
+}
 .jp{
     margin-top: 1.2rem;
 }
@@ -366,6 +371,9 @@ a.p-link:hover:before {
     #artou-photo{width: 100%; height: auto;}
     #ar-photo{width: 100%; height: auto;}
 
+    #Industry > .mainul > .element{
+        font-size: 1.2rem;
+    }
     .link{
         padding: 0 auto;
         height: 21%;
