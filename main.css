@@ -207,6 +207,7 @@ hr{
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
+#fithockey-photo{width: 65%; height: auto;}
 #easymd-photo{height: 100%;}
 #quickbuzz-photo{height: 100%;}
 #mypic-photo{height: 100%;}
@@ -368,6 +369,7 @@ a.p-link:hover:before {
         padding-bottom: 1rem;
         margin: 0 auto;
     }
+    #fithockey-photo{width: 100%; height: auto;}
     #easymd-photo{width: 100%; height: auto;}
     #quickbuzz-photo{width: 100%; height: auto;}
     #mypic-photo{width: 100%; height: auto;}
